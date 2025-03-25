@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions</title>
+</head>
+<body>
+    <h1>Transactions</h1>
+    {% if transactions %}
+        <ul>
+        {% for transaction in transactions %}
+            <li>{{ transaction.date }} - {{ transaction.title }}: {{ transaction.amount }} {{ transaction.currency }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No transactions available.</p>
+    {% endif %}
+</body>
+</html>
