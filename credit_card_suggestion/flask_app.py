@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the dataset
-df = pd.read_csv("final.csv")
+df = pd.read_csv("cards.csv")
 
 # Function to calculate credit card scores
 def calculate_score(df, user_income, is_salaried, user_expenditure):
