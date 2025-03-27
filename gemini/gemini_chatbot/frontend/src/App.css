@@ -42,7 +42,7 @@
   right: 20px;
   width: 350px;
   height: 500px;
-  background: #d4edda; /* Light Green */
+  background: #d4edda; 
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@
 }
 
 .chat-header {
-  background: #81c784; /* Slightly Darker Green */
+  background: #81c784; 
   color: white;
   padding: 10px;
   text-align: center;
@@ -76,12 +76,12 @@
 }
 
 .message.user {
-  background: #aed581; /* Light Green */
+  background: #aed581; 
   align-self: flex-end;
 }
 
 .message.bot {
-  background: #c8e6c9; /* Softer Light Green */
+  background: #c8e6c9;
   align-self: flex-start;
 }
 
